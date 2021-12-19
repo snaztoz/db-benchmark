@@ -1,0 +1,27 @@
+{
+  "name": "benchmark",
+  "version": "1.0.0",
+  "description": "Benchmark for MariaDB, MongoDB and Redis performance",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "benchmark",
+    "database",
+    "mariadb",
+    "mongodb",
+    "redis",
+    "sql",
+    "nosql"
+  ],
+  "author": "snaztoz",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mariadb": "^2.5.5",
+    "mongodb": "^4.2.0",
+    "redis": "^4.0.0"
+  }
+}
